@@ -12,10 +12,10 @@ int num;
 long int age;
 long long int nums;
 float doc;
-printf("Size of a char: %zu byte(s)", sizeof(number));
-printf("\nSize of an int: %zu byte(s)", sizeof(num));
-printf("\nSize of a long int: %zu byte(s)", sizeof(age));
-printf("\nSize of a long long int: %zu byte(s)", sizeof(nums));
-printf("\nSize of a float: %zu byte(s)", sizeof(doc));
+printf("Size of a char: %zu byte(s)\n", sizeof(number));
+printf("Size of an int: %zu byte(s)\n", sizeof(num));
+printf("Size of a long int: %zu byte(s)\n", sizeof(age));
+printf("Size of a long long int: %zu byte(s)\n", sizeof(nums));
+printf("Size of a float: %zu byte(s)\n", sizeof(doc));
 return (0);
 }
