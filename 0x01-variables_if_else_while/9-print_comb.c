@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main -  a program that prints all possible combinations of singe  numbers.
  *
@@ -7,17 +8,17 @@
 
 int main(void)
 {
-	int i;
+	int x;
 
-	for (i = 0 ; i < 10 ; i++)
+	for (x = 0 ; x < 10 ; x++)
 	{
-		if (i == 0)
-			putchar(i + '0');
-		else
-		{	putchar(i + '0');
+		putchar(x + '0');
+		if (x != 9)
+		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
+	putchar('\n');
 	return (0);
 }
