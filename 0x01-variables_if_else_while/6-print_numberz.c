@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main -  a program that prints all single digit numbers of base
  *
@@ -6,9 +7,9 @@
  */
 int main(void)
 {
-	char i;
+	int i;
 
-	for (i = 0 ; i < 10 ; i++)
+	for (i = '0' ; i < '10' ; i++)
 		putchar(i);
 	putchar('\n');
 	return (0);
