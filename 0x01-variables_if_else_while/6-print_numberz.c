@@ -1,4 +1,4 @@
-#include <stdir.h>
+#include <stdio.h>
 /**
  * main -  a program that prints all single digit numbers of base
  *
